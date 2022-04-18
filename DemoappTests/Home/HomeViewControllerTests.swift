@@ -40,6 +40,12 @@ class HomeViewControllerTests: XCTestCase {
 			as: .image(on: .iPhoneX(.landscape), traits: .init(userInterfaceStyle: .dark)),
 			named: "DarkMode_Landscape"
 		)
+
+		assertSnapshot(
+			matching: sut,
+			as: .image(on: .iPadPro11(.portrait), traits: .init(userInterfaceStyle: .dark)),
+			named: "iPadPro11_DarkMode_Landscape"
+		)
 	}
 
 }
