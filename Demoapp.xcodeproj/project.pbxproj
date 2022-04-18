@@ -11,7 +11,6 @@
 		B6086427280A32140032C2E0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6086426280A32140032C2E0 /* HomeViewController.swift */; };
 		B608642C280A32160032C2E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B608642B280A32160032C2E0 /* Assets.xcassets */; };
 		B608642F280A32160032C2E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B608642D280A32160032C2E0 /* LaunchScreen.storyboard */; };
-		B608643A280A32170032C2E0 /* DemoappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6086439280A32170032C2E0 /* DemoappTests.swift */; };
 		B6086454280A326C0032C2E0 /* SnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = B6086453280A326C0032C2E0 /* SnapshotTesting */; };
 		B6086457280A329A0032C2E0 /* SnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = B6086456280A329A0032C2E0 /* SnapshotTesting */; };
 		B6086459280A33720032C2E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6086458280A33720032C2E0 /* AppDelegate.swift */; };
@@ -50,7 +49,6 @@
 		B608642E280A32160032C2E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B6086430280A32160032C2E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6086435280A32170032C2E0 /* DemoappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B6086439280A32170032C2E0 /* DemoappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoappTests.swift; sourceTree = "<group>"; };
 		B608643F280A32170032C2E0 /* DemoappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6086458280A33720032C2E0 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B6907C49280AF087007732D3 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
@@ -126,7 +124,6 @@
 			children = (
 				B6907C56280B715C007732D3 /* Home */,
 				B6907C55280B7140007732D3 /* Card */,
-				B6086439280A32170032C2E0 /* DemoappTests.swift */,
 			);
 			path = DemoappTests;
 			sourceTree = "<group>";
@@ -364,7 +361,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B608643A280A32170032C2E0 /* DemoappTests.swift in Sources */,
 				B6907C58280B716D007732D3 /* CardOptionViewTests.swift in Sources */,
 				B6907C5A280B7177007732D3 /* CardViewTests.swift in Sources */,
 				B6907C60280CD202007732D3 /* HomeViewControllerTests.swift in Sources */,
